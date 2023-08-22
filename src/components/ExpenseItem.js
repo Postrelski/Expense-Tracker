@@ -25,3 +25,8 @@ export default ExpenseItem;
 // And you must import the CSS file into the componenet
 
 // To place variables inside JSX code we must use curly brackets "{}"
+
+// Dynamic variables must use state!
+// useState returns an array with exactly two elements
+// Second element is always function which is used to update the value for your state
+// calling that function will also trigger react to re-evaluate the componenet

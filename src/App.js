@@ -1,6 +1,6 @@
 import Expenses from "./components/Expenses";
-import ExpenseForm from "./components/ExpenseForm";
 import NewExpense from "./components/NewExpense";
+import ExpensesFilter from "./components/ExpenseFilter";
 
 function App() {
   const expenses = [
